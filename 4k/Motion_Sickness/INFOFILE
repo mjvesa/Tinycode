@@ -1,0 +1,99 @@
+
+                       M O T I O N   S I C K N E S S
+
+
+
+
+                            S O U R C E C O D E  
+
+
+
+ ..Oh mother.
+
+
+   Here it is. What you've all been fearing of. If nothing else, this release
+   shows the single most important reason why coders don't release their
+   sources: it's a horrible mess. The very essence of chaos is present within
+   these files.
+
+   But it's been a long time since I wrote this stuff, and I can't be
+   bothered to fix the source any further. Oh, I tried. And I failed.
+
+   Managed to fix one bug, though. The balls in the first part are now
+   in straight lines. But there are tons and tons of bugs in there. If you
+   find any, keep them to yourself. Hehe.
+
+   You need a copy of tasm and tlink to compile this. If you have those in
+   your path, just executing c.bat will do.
+   
+
+ ..The history of this intro.
+
+
+   Initially, motion sickness was supposed to be a java 4k intro. Written
+   in pure bytecode. This was because the assembly organizing wrote in their
+   webpage that DOS entries would not be allowed, so I tried my luck with
+   JVM.
+
+   Painstakingly I learned the innards of JVM and managed to write my first
+   effect in pure bytecodes. Everything ran in an infinite loop inside
+   the paint() method, something that should not be done I guess.. But then
+   I started to write the intro, and it was hell. JVM is obviously designed
+   for compilers, not humans. I've never written so many comments just to
+   keep track on what variable and value goes where. And tracking bugs wasn't
+   that easy, either.
+
+   I managed to write an implementation of the first effect in this intro,
+   voxels mapped onto a plane. It was... Quite slow. And time was running out.
+   I started to become tired of the whole project, but then something lovely
+   happened. I think it was wiba from whom the word spread out to me. One
+   evening on IRC, nepa, when he still could be found on IRC, told me that
+   someone had told him that DOS entries would be allowed after all. I quickly
+   mailed the organizers and they responded. Yes. It was possible. They did
+   not support DOS, which just meant that no sound drivers and such would be
+   installed.
+
+   So. There I was, a ton of old code at my disposal and three days before
+   assembly would begin. I coded like a maniac. First 48 hours with a few
+   hours of sleep in between.. But the intro still wasn't finished. There
+   were some parts, but more was needed. So I grabbed an old voxel routine,
+   zipped the sources together with a compiler and e-mailed those to myself.
+   My idea was to continue coding at the partyplace using a friends' machine.
+
+   Assembly. On thursday we attended boozembly. The weather wasn't exactly
+   perfect, actually it started to get kind of chilly outside. I wasn't
+   feeling too good and left to sleep. Some friends afterwards told me that
+   I looked like a ghost, all white and so. I probably had not eaten enough.
+
+   Anyhow, to sleep I went. And then I woke on friday with a nice hangover.
+
+   And 12 hours to go before deadline.
+
+   I asked Infinite for the password for his machine, downloaded the source
+   and started whacking in some code. For ten hours straight at the
+   partyplace. Slowly the buggy routines started to form an intro. I wrote
+   some routines to generate heightmaps for the voxel routine, but they
+   were not good enough. During the last hour I attempted to implement an
+   idea I had, somekind of pillars going up and down using the voxel routine.
+   I screwed it up and what resulted can now be seen in the intro. Strange
+   how the effect that many people like the most in this intro was actually
+   a fortunate mistake.
+
+   Anyhow, it got third. And I was satisfied with it.
+
+
+
+ ..Contact.
+
+   mattijvesa@hotmail.com
+
+
+
+ ... .  .. .  . . . ...  .  .    .   . .  . . .    . . . .  . .  ....  . ..
+
+  
+   Matti Vesa
+   yobi / wAMMA
+   19.8.2004
+
+
