@@ -1,0 +1,13 @@
+Brain
+
+This is the first 256b intro I've ever written. It was also the first
+instance of the plasma routine that has seen too much use. Another
+first was the first use of the tiled 256x200 mode obtained by changing
+the  width of the display to 256b. In this case the repeating part was 
+put to good use by placing the other effect, a heightmapped cylinder,
+to the edge, resulting in it's duplication to the other edge
+of the screen.
+
+Converted from TASM to NASM format and released for completeness in
+2024-2-18. Original showing time at a wAMMA and Biomassa meet was
+in the beginning of 2002, exact date unknown.
